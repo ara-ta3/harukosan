@@ -3,5 +3,5 @@
   "hubot-maps",
   "hubot-redis-brain",
   "hubot-youtube",
-  "hubot-schedule"
+  "hubot-middleware-kuromoji"
 ]

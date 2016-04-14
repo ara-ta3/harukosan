@@ -1,9 +1,5 @@
 #! /bin/sh
 
 file=${1:- "./credentials/sample"}
-. $file; \
-    export HUBOT_SLACK_TOKEN; \
-    export HUBOT_SLACK_TEAM; \
-    export HUBOT_SLACK_BOTNAME;
-
+. $file
 ./bin/hubot --adapter slack
