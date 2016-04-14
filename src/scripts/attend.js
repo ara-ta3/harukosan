@@ -52,7 +52,7 @@ module.exports = (robot => {
         }
     })
 
-    robot.respond(/list/i, res => {
+    robot.respond(/list|次回*/i, res => {
         const event     = eventServer.latestEvent();
         if(event !== null) {
             const members = eventServer.attendees(event);
